@@ -24,6 +24,7 @@ PROJECT_NAME = os.environ.get("PROJECT_NAME")
 class EventSource(object):
     """
     A source of event data being delivered to the webhook
+    hello world event
     """
 
     def __init__(self, signature_header, verification_func):
