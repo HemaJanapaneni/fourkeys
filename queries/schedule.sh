@@ -75,7 +75,7 @@ bq query \
     --use_legacy_sql=false \
     --destination_table=$PROJECT_ID:four_keys.$TABLE \
     --display_name=four_keys_$TABLE \
-    --schedule="every 24 hours" \
+    --schedule="every 2 minutes" \
     --replace=true \
     --label=created_by:four_keys \
     "`cat $QUERY_FILE`"
